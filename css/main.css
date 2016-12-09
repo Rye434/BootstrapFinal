@@ -1,0 +1,39 @@
+/*
+#668D3C Green
+#493829 Brown
+#BDD09F Light Green
+#A3ADB8 Light blue
+#4E6172 Dark Blue
+
+
+
+*/
+
+
+
+
+
+
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family:"helvetica", "arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    background: #668D3C;
+}
+h1{
+    color: #493829;
+}
+#title{
+    text-align: center;
+    font-size: 6rem;
+}
+.container{
+    background: #BDD09F;
+}
+.navbar{
+    background: #A3ADB8;
+}
