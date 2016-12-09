@@ -8,21 +8,26 @@
 
 
 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 
-
-
-
-
-body {
-    margin: 0 auto;
-    max-width: 50em;
+body{
     font-family:"helvetica", "arial", sans-serif;
-    line-height: 1.5;
-    padding: 4em 1em;
     color: #555;
     background: #668D3C;
+}
+
+
+main {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
 }
 h1{
     color: #493829;
@@ -30,10 +35,34 @@ h1{
 #title{
     text-align: center;
     font-size: 6rem;
+    padding: 5vh;
+    background: ;
+}
+h2{
+    text-align: center;
+    padding: 5%
 }
 .container{
     background: #BDD09F;
 }
+.jumbotron-fluid{
+    background:  #BDD09F;
+}
 .navbar{
     background: #A3ADB8;
+}
+.nav-item{
+    width: 30%;
+    text-align: center;
+}
+footer{
+    float: left;
+    padding: 1vh;
+    width: 100%;
+    background: #A3ADB8;
+    text-align: center;
+}
+footer p{
+    width: 50%;
+    
 }
