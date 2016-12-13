@@ -1,13 +1,14 @@
 /*
-#668D3C Green
-#493829 Brown
-#BDD09F Light Green
-#A3ADB8 Light blue
-#4E6172 Dark Blue
+#009C1C Green
+#12669C Blue
+#00856A blue Green
+#FFFBC7 Yellow
+#468200 Dark green
 
 
 
 */
+
 *{
     padding: 0;
     margin: 0;
@@ -17,39 +18,47 @@
 
 
 body{
-    font-family:"helvetica", "arial", sans-serif;
-    color: #555;
-    background: #668D3C;
+    font-family: 'Open Sans', 'Book Antiqua', Palatino, serif;
+    color: black;
+    background: #F0FFF3;
 }
-
-
 main {
     margin: 0 auto;
     max-width: 50em;
     line-height: 1.5;
-    padding: 4em 1em;
 }
 h1{
-    color: #493829;
+    color: #E8C65B;
+    font-family: Alegreya, Helvetica, Arial, sans-serif;
 }
 #title{
     text-align: center;
     font-size: 6rem;
     padding: 5vh;
-    background: ;
+    background: #378550;
+    color: #E8C65B;
 }
 h2{
+    color: #E8C65B;
     text-align: center;
-    padding: 5%
+    padding: 5%;
+    font-size: 3rem;
+    font-family: Alegreya, Helvetica, Arial, sans-serif;
 }
 .container{
-    background: #BDD09F;
+    background: #378550;
+}
+#content{
+    margin-bottom: 5%;
+    padding: 5%
 }
 .jumbotron-fluid{
-    background:  #BDD09F;
+    background:  #378550;
+    text-align: center;
 }
 .navbar{
-    background: #A3ADB8;
+    background: #7B84E8;
+    margin-top: 5%;
 }
 .nav-item{
     width: 30%;
@@ -59,10 +68,37 @@ footer{
     float: left;
     padding: 1vh;
     width: 100%;
-    background: #A3ADB8;
+    background: #7B84E8;
     text-align: center;
 }
 footer p{
-    width: 50%;
+    width: 100%;
     
 }
+.iconic{
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
