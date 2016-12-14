@@ -106,19 +106,21 @@ footer p{
 .card h3{
     max-width: 100%;
 }
-.contact{
-    max-width: 750px;
-    padding: 2%;
-}
 #head2C{
-    width: 80%;
     text-align: center;
     background-color: #378550;
     margin: 3% auto;
+    padding: 3%;
+    max-width: 750px;
     font-size: 10em;
+    width: 80%;
 }
+.contact{
+    max-width: 750px;
+}
+
 footer span{
-    display: inline
+    display: inline;
     font-size: 2rem;
     color: black;
 }
@@ -126,11 +128,14 @@ footer span{
 footer span:hover{
     color: #E8C65B;
 }
-#map {
+img{
     margin: 0 auto;
+    padding: 6%;
+    
 }
 #map p{
     padding: 1em;
+    font-size: 1.5em;
     text-align: center;
     color: white;
 }
