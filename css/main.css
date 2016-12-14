@@ -107,6 +107,14 @@ footer span{
 footer span:hover{
     color: #E8C65B;
 }
+#map p{
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+label{
+    color: white;
+}
 @media all and (max-width: 576px){
     #bar{
         display: none;
