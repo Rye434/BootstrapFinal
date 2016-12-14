@@ -24,7 +24,6 @@ body{
 }
 main {
     margin: 0 auto;
-    max-width: 50em;
     line-height: 1.5;
 }
 h1{
@@ -35,6 +34,7 @@ h1{
     text-align: center;
     font-size: 6rem;
     padding: 5vh;
+    margin: 0;
     background: #378550;
     color: #E8C65B;
 }
@@ -47,21 +47,25 @@ h2{
 }
 .container{
     background: #378550;
-}
-#content{
+    width: 70%;
+    padding: 5%;
     margin-bottom: 5%;
-    padding: 5%
+    padding: 5%;
+    padding-top: 3%
 }
 .jumbotron-fluid{
+    
+    width: 70%;
+    margin: 5% auto;
     background:  #378550;
     text-align: center;
 }
 .navbar{
     background: #7B84E8;
-    margin-top: 5%;
+    width: 100%;
 }
 .nav-item{
-    width: 30%;
+    width: 31%;
     text-align: center;
 }
 footer{
@@ -72,16 +76,48 @@ footer{
     text-align: center;
 }
 footer p{
-    width: 100%;
-    
+    width: 15%;
+    display: inline-block;
 }
 .iconic{
-    background-color: pink;
+    display: inline-block;
 }
-
-
-
-
+footer img:hover{
+    background: lightblue;
+}
+#hamb{
+    display: none;
+}
+.card{
+    width:23%;
+    margin: 5% 5%;
+    display: inline-block;
+}
+.contact{
+    max-width: 750px;
+    padding: 5%;
+}
+.iconic-social-twitter{
+    background-color: fill blue;
+}
+@media all and (max-width: 576px){
+    #bar{
+        display: none;
+    }
+    #hamb{
+        display: block;
+        text-align: center;
+    }
+    #hamb li{
+        list-style: none;
+        width: 100%;
+        padding: 10px;
+    }
+    .navbar{
+        margin-top: 0;
+    }
+    
+}
 
 
 
