@@ -79,9 +79,6 @@ footer p{
     width: 15%;
     display: inline-block;
 }
-.iconic{
-    display: inline-block;
-}
 footer img:hover{
     background: lightblue;
 }
@@ -90,15 +87,25 @@ footer img:hover{
 }
 .card{
     width:23%;
-    margin: 5% 5%;
+    margin: 5%;
     display: inline-block;
 }
 .contact{
     max-width: 750px;
     padding: 5%;
 }
-.iconic-social-twitter{
-    background-color: fill blue;
+#head2C{
+    width: 70%;
+    background-color: #378550;
+    margin: 3% auto;
+}
+footer span{
+    font-size: 2rem;
+    color: black;
+}
+
+footer span:hover{
+    color: #E8C65B;
 }
 @media all and (max-width: 576px){
     #bar{
